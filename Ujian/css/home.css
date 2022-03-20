@@ -1,0 +1,118 @@
+.container-content {
+  width: 100%;
+  height: 800px;
+  background: transparent;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.container-content img {
+  background-image: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container-content .input {
+  width: 1000px;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 300px;
+  box-sizing: border-box;
+}
+
+.input-body {
+  margin-top: 15px;
+  width: inherit;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.input-text {
+  padding: 10px;
+}
+
+.cari {
+  height: 40px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.checkIn {
+  height: 40px;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.checkOut {
+  height: 40px;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.rooms {
+  height: 40px;
+  width: 100px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.button {
+  height: 40px;
+  width: 100px;
+  color: #fff;
+  background-color: #999a9b;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.container-garansi {
+  margin-top: 70px;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+.content-garan {
+  width: 500px;
+  height: 690px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container-garansi .title-text {
+  font-size: 30px;
+}
+
+.container-garansi .garan-head {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container-garansi .garan {
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  border-radius: 15px;
+  padding: 40px;
+}
+
+.garan img {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+}
+
+.service2 {
+  background-color: #e3e7ea;
+}
+.service3 {
+  background-color: #e3e7ea;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+}

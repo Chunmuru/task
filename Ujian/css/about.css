@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+.container-decoration {
+  height: 100vh;
+  width: 360px;
+  background-color: #83ff88;
+  padding: 10px;
+}
+
+.container-decoration button {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  background-color: rgb(253, 93, 75);
+  font-size: 18px;
+  border: none;
+}
+
+.container-about {
+  padding: 20px;
+  width: 800px;
+  height: 500px;
+  background-color: #fff;
+  box-shadow: 8px 10px #888888;
+  z-index: 999;
+  position: absolute;
+  top: 100px;
+  left: 20%;
+  align-items: center;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 700;
+  height: 60px;
+  width: 100px;
+  margin-top: 80px;
+  margin-left: 70px;
+  text-align: center;
+}
+
+.button {
+  position: absolute;
+  top: 310px;
+  left: 100px;
+}
+
+.button button {
+  height: 40px;
+  width: 120px;
+  border-radius: 20px;
+  border: none;
+}
+
+.image {
+  position: absolute;
+  top: 80px;
+  right: 100px;
+  height: 270px;
+  width: 400px;
+  float: right;
+}
+
+.image img {
+  background-image: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.description {
+  width: 95%;
+  position: absolute;
+  bottom: 50px;
+  right: 15px;
+  font-size: 18px;
+}

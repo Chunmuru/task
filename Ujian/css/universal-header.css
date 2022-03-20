@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.26);
+  position: fixed;
+  /* top: 0px; */
+  z-index: 999;
+}
+
+header nav {
+  width: 1000px;
+  height: inherit;
+  /* border: 1px solid black; */
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+header .title {
+  font-size: 30px;
+}
+header nav ul li {
+  margin-top: 8px;
+  float: left;
+  margin-left: 10px;
+  list-style: none;
+  font-size: 17px;
+}

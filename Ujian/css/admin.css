@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background: white;
+
+}
+
+.container {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 200px;
+    height: 100vh;
+    background-color: #03a9f4;
+}
+
+h3 {
+    color: white;
+    letter-spacing: 3px;
+    position: relative;
+    top: 30px;
+    left: 40px;
+    font-size: 30px;
+}
+
+.button {
+    position: relative;
+    top: 50px;
+
+}
+
+.container .button button {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    height: 60px;
+    background-color: #03a9f4;
+    color: black;
+    display: block;
+    border: none;
+    cursor: pointer;
+}
+
+.container .button .active {
+    color: black;
+    background: #fff;
+    border-radius: 30px;
+    width: 120%;
+    margin-left: 10%;
+    display: block;
+}
+.container .button .active:hover {
+    color: black;
+    background: #fff;
+    border-radius: 30px;
+    width: 120%;
+    margin-left: 10%;
+
+}
+
+.container .button button:hover {
+    color: black;
+    background: #fff;
+    border-radius: 30px;
+    width: 120%;
+    margin-left: 5%;
+
+}
+
+.logout {
+    position: absolute;
+    left: 60px;
+    bottom: 100px;
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+    background: #03a9f4;
+    border: none;
+    cursor: pointer;
+}
+.logout:hover {
+    color: red;
+}
+.content {
+    position: absolute;
+    width: 80%;
+    height: 100vh;
+    top: 0px;
+    right: 0px;
+
+}
+
+.content h3 {
+    color: black;
+    letter-spacing: 2px;
+    position: relative;
+}
+table {
+    border: 1px solid blue;
+    margin-right: 10px;
+    
+}
+th, td {
+    text-align: left;
+    padding: 15px 15px 15px 15px;
+    
+}
+
+.link {
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.a {
+    position: relative;
+    width: 140px;
+    height: 40px;
+    margin-left: 13px;
+}
+
+.a a {
+    padding: 5px  20px;
+    border: 1px solid grey;
+    border-radius: 12px;
+}
+
+.a .edit {
+    background: rgb(110, 250, 91);
+    float: left;
+}
+
+.a .hapus {
+    background: salmon;
+    float: right;
+}
